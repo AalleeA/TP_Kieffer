@@ -39,6 +39,6 @@ function wer = WER (p0, f,N)
      err = 0;
    endfor
    wer(1) = wer(1)/N;
-   wer(2) = wer(2)/N/7;
+   wer(2) = wer(2)/N;
 
 endfunction

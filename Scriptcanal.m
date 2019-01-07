@@ -6,9 +6,9 @@ clear all;
 close all;
 
 N = 4;
-nb = 100;
+nb = 5000;
 p0 = 0.5;
-X=50;
+X=100;
 f = 0:0.5/X:0.5;
 tmp = [0,0];
 wer = zeros(1,X+1);
